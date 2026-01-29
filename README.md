@@ -4,9 +4,9 @@
 
 ## 📌 Project Status
 
-|            Project Name            | Status  |       Description       |
-| :--------------------------------: | :-----: | :---------------------: |
-| **[Task Tracker](./task-tracker)** | ✅ Done | CLI 기반 작업 관리 도구 |
+|            Project Name            | Status  |       Description       | Completed  |
+| :--------------------------------: | :-----: | :---------------------: | :--------: |
+| **[Task Tracker](./task-tracker)** | ✅ Done | CLI 기반 작업 관리 도구 | 2026-01-29 |
 
 ## 📂 Repository Structure
 
