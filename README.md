@@ -4,9 +4,10 @@
 
 ## 📌 Project Status
 
-|            Project Name            | Status  |       Description       | Completed  |                        Roadmap                        |
-| :--------------------------------: | :-----: | :---------------------: | :--------: | :---------------------------------------------------: |
-| **[Task Tracker](./task-tracker)** | ✅ Done | CLI 기반 작업 관리 도구 | 2026-01-29 | [Spec Link](https://roadmap.sh/projects/task-tracker) |
+|            Project Name            | Status  |                   Description                    | Completed  |                            Roadmap                            |
+| :--------------------------------: | :-----: | :----------------------------------------------: | :--------: | :-----------------------------------------------------------: |
+| **[Task Tracker](./task-tracker)** | ✅ Done |             CLI 기반 작업 관리 도구              | 2026-01-29 |     [Spec Link](https://roadmap.sh/projects/task-tracker)     |
+|    **[GitHub User Activity]()**    | ⬜ Todo | 깃허브 API를 사용하여 사용자 활동을 조회하는 CLI |     -      | [Spec Link](https://roadmap.sh/projects/github-user-activity) |
 
 ## 📂 Repository Structure
 
