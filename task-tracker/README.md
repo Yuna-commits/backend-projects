@@ -1,8 +1,6 @@
-# 📝 Task Tracker CLI
+# Task Tracker CLI
 
-[Task Tracker](https://roadmap.sh/projects/task-tracker)의 요구사항을 기반으로 구현한 **CLI 기반 작업 관리 도구**입니다.
-
-외부 라이브러리 없이 **Java(Native)**의 기능만을 사용하여 개발했습니다.
+Sample solution for the [Task Tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
 
 ## 📋 Features
 
