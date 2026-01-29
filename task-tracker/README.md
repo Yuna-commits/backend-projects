@@ -1,6 +1,6 @@
 # Task Tracker CLI
 
-Sample solution for the [Task Tracker](https://roadmap.sh/projects/task-tracker) challenge from [roadmap.sh](https://roadmap.sh/).
+[Task Tracker](https://roadmap.sh/projects/task-tracker)의 요구사항을 기반으로 구현한 **CLI 기반 작업 관리 도구**입니다.
 
 ## 📋 Features
 
