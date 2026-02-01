@@ -63,7 +63,7 @@ src/main/java/tasktracker
 $ ./tasktracker list
 
 +-------+------------------------------------------+--------------+------------------+------------------+
-| ID    | Description                              | Status       | Created At     | Updated At     |
+| ID    | Description                              | Status       | Created At       | Updated At       |
 +-------+------------------------------------------+--------------+------------------+------------------+
 | 1     | Finish documentation                     | todo         | 2026-01-29 22:41 | 2026-01-29 22:41 |
 | 2     | Implement CLI                            | todo         | 2026-01-29 22:41 | 2026-01-29 22:41 |
