@@ -24,7 +24,7 @@ implements Comparable<Task> {
                         }""",
                 this.id,
                 this.description,
-                this.status.getStatus(),
+                this.status.getValue(),
                 this.createdAt.toString(),
                 isUpdated() ? this.updatedAt.toString() : "N/A"
         );

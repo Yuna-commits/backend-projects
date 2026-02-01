@@ -28,7 +28,7 @@ public class JsonUtils {
         int id = Integer.parseInt(idStr);
 
         // 값이 없거나 오류 시 기본값 사용
-        TaskStatus status =  (statusStr != null) ? TaskStatus.valueOf(statusStr.toUpperCase().replace("-", "_")) : TaskStatus.TODO;
+        TaskStatus status =  (statusStr != null) ? TaskStatus.from(statusStr) : TaskStatus.TODO;
         LocalDateTime createdAt = (createdStr != null) ? LocalDateTime.parse(createdStr) : LocalDateTime.now();
         LocalDateTime updatedAt = (updatedStr != null) ? LocalDateTime.parse(updatedStr) : LocalDateTime.now();
 
@@ -104,7 +104,7 @@ public class JsonUtils {
         return "{" +
                 "\"id\":" + task.id() + "," +
                 "\"description\":\"" + task.description() + "\"," +
-                "\"status\":\"" + task.status().getStatus() + "\"," +
+                "\"status\":\"" + task.status().getValue() + "\"," +
                 "\"createdAt\":\"" + task.createdAt().toString() + "\"," +
                 "\"updatedAt\":\"" + task.updatedAt() + "\"" +
                 "}";

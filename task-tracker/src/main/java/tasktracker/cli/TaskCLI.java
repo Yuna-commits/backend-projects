@@ -99,7 +99,7 @@ public class TaskCLI {
         }
         try {
             int id = Integer.parseInt(args[1]);
-            TaskStatus newStatus = TaskStatus.valueOf(status.toUpperCase().replace("-", "_"));
+            TaskStatus newStatus = TaskStatus.from(status);
 
             taskService.markTasksStatus(id, newStatus);
             System.out.printf("Task marked as %s (ID: %d)%n", status, id);
@@ -121,8 +121,8 @@ public class TaskCLI {
 
         if(filter != null) {
             try {
-                // 입력값("in-progress") -> Enum명("IN_PROGRESS") 변환
-                status = TaskStatus.valueOf(filter.toUpperCase().replace("-", "_"));
+                // 입력값("in-progress")과 일치하는 Enum("IN_PROGRESS") 반환
+                status = TaskStatus.from(filter);
             } catch (IllegalArgumentException e) {
                 System.out.println("Error: Invalid status filter. Use todo, in-progress, or done.");
                 return;

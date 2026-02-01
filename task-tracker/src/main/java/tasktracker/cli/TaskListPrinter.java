@@ -8,7 +8,7 @@ import java.util.List;
 public class TaskListPrinter {
 
     private static final String BORDER = "+-------+------------------------------------------+--------------+------------------+------------------+";
-    private static final String HEADER = "| ID    | Description                              | Status       | Created At     | Updated At     |";
+    private static final String HEADER = "| ID    | Description                              | Status       | Created At       | Updated At       |";
     private static final DateTimeFormatter DATE_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
     private static final String TASK_FORMAT = "| %-5s | %-40s | %-12s | %-16s | %-16s |%n";
     private static final int DESCRIPTION_MAX_LENGTH = 40;
@@ -22,7 +22,7 @@ public class TaskListPrinter {
                 TASK_FORMAT,
                 task.id(),
                 truncate(task.description()),
-                task.status().getStatus(),
+                task.status().getValue(),
                 task.createdAt().format(DATE_FORMATTER),
                 task.updatedAt().format(DATE_FORMATTER)
         ));
