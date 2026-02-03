@@ -47,11 +47,7 @@ public class JsonUtils {
         Matcher matcher = pattern.matcher(json);
 
         if(matcher.find()) {
-            if(matcher.group(1) != null) {
-                return matcher.group(1);
-            } else {
-                return matcher.group(2);
-            }
+		    return matcher.group(1) != null ? matcher.group(1) : matcher.group(2);
         }
 
         return null;
