@@ -4,10 +4,16 @@
 
 ## 📌 Project Status
 
-|            Project Name            | Status  |                   Description                    | Completed  |                            Roadmap                            |
-| :--------------------------------: | :-----: | :----------------------------------------------: | :--------: | :-----------------------------------------------------------: |
-| **[Task Tracker](./task-tracker)** | ✅ Done |             CLI 기반 작업 관리 도구              | 2026-01-29 |     [Spec Link](https://roadmap.sh/projects/task-tracker)     |
-|    **[GitHub User Activity]()**    | ⬜ Todo | 깃허브 API를 사용하여 사용자 활동을 조회하는 CLI |     -      | [Spec Link](https://roadmap.sh/projects/github-user-activity) |
+|                    Project Name                    |     Status     |                   Description                    | Completed  |                            Roadmap                            |
+| :------------------------------------------------: | :------------: | :----------------------------------------------: | :--------: | :-----------------------------------------------------------: |
+|         **[Task Tracker](./task-tracker)**         |    ✅ Done     |             CLI 기반 작업 관리 도구              | 2026-01-29 |     [Spec Link](https://roadmap.sh/projects/task-tracker)     |
+| **[GitHub User Activity](./github-user-activity)** | 🚧 In Progress | 깃허브 API를 사용하여 사용자 활동을 조회하는 CLI |     -      | [Spec Link](https://roadmap.sh/projects/github-user-activity) |
+
+> **Status Legend**
+>
+> - ✅ Done: 구현 완료 및 문서화
+> - 🚧 In Progress: 현재 개발 진행 중
+> - ⬜ Todo: 구현 예정
 
 ## 📂 Repository Structure
 
