@@ -42,16 +42,33 @@ java -cp target/classes github_user_activity.Main [username]
 ./github-activity username
 ```
 
+## 🧪 Testing
+
+- **Test Framework**: JUnit 5(Jupiter), AssertJ
+- **Coverage**:
+  - `JsonParser`: 정규식 파싱 로직 및 엣지 케이스 검증
+  - `ActivityService`: 이벤트 포맷팅 및 네트워크 예외 위임 처리 검증
+  - `EventType`: 도메인 객체의 데이터 바인딩 검증
+
 ## 📂 Project Structure
 
 ```
-src/main/java/tasktracker
-├── Main.java              # Entry Point
-├── cli/                   # CLI Input Handling & View
-├── service/               # Business Logic & Event Formatting
-├── network/               # HTTP Client & Custom JSON Parser
-├── model/                 # Data Class (Record) & Enum
-└── exception/             # Custom Exceptions
+src/
+├── main/java/github_user_activity/
+│   ├── Main.java                         # Entry Point (Dependency Injection)
+│   ├── cli/                              # CLI Input Handling & View
+│   ├── service/                          # Business Logic & Event Formatting
+│   ├── network/                          # HTTP Client & Custom JSON Parser
+│   ├── model/                            # Data Class (Record) & Enum
+│   └── exception/                        # Custom Exceptions
+│
+└── test/java/github_user_activity/
+    ├── model/
+    │   └── EventTypeTest.java            # Enum 문자열 바인딩 및 예외 상황(UNKNOWN) 검증
+    ├── network/
+    │   └── JsonParserTest.java           # 정규식 기반 JSON 파싱 및 빈 배열([]) 처리 검증
+    └── service/
+        └── ActivityServiceTest.java      # 이벤트 포맷팅 및 가짜 객체(Mock)를 통한 예외 위임 검증
 ```
 
 ## 📖 Usage Examples
