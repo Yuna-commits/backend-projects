@@ -4,10 +4,10 @@
 
 ## 📌 Project Status
 
-|                    Project Name                    |     Status     |                   Description                    | Completed  |                            Roadmap                            |
-| :------------------------------------------------: | :------------: | :----------------------------------------------: | :--------: | :-----------------------------------------------------------: |
-|         **[Task Tracker](./task-tracker)**         |    ✅ Done     |             CLI 기반 작업 관리 도구              | 2026-01-29 |     [Spec Link](https://roadmap.sh/projects/task-tracker)     |
-| **[GitHub User Activity](./github-user-activity)** | 🚧 In Progress | 깃허브 API를 사용하여 사용자 활동을 조회하는 CLI |     -      | [Spec Link](https://roadmap.sh/projects/github-user-activity) |
+|                    Project Name                    | Status  |                   Description                    | Completed  |                            Roadmap                            |
+| :------------------------------------------------: | :-----: | :----------------------------------------------: | :--------: | :-----------------------------------------------------------: |
+|         **[Task Tracker](./task-tracker)**         | ✅ Done |             CLI 기반 작업 관리 도구              | 2026-01-29 |     [Spec Link](https://roadmap.sh/projects/task-tracker)     |
+| **[GitHub User Activity](./github-user-activity)** | ✅ Done | 깃허브 API를 사용하여 사용자 활동을 조회하는 CLI | 2026-02-25 | [Spec Link](https://roadmap.sh/projects/github-user-activity) |
 
 > **Status Legend**
 >
@@ -19,9 +19,10 @@
 
 ```text
 backend-projects/
-├── task-tracker/       # [Project 01] Task Tracker 소스코드
+├── task-tracker/               # [Project 01] Task Tracker 소스코드
 │   ├── src/
 │   ├── pom.xml
-│   └── README.md       # 프로젝트별 상세 명세서
+│   └── README.md               # 프로젝트별 상세 명세서
+├── github-user-activity/       # [Project 02] GitHub User Activity CLI 소스코드
 └── (Next Projects...)
 ```
